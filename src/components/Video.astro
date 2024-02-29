@@ -3,10 +3,13 @@ const src = "/video.mp4";
 ---
 
 <div class="w-full relative">
-  <img class="absolute z-10 left-0 right-0" src="/logo-home.svg" />
+  <img
+    class="absolute z-10 left-0 right-0 w-1/2 mx-auto"
+    src="/logo-home.svg"
+  />
   <video
     style="clip-path: polygon(100% 0, 100% 79%, 50% 100%, 0 78%, 0 0);"
-    class="w-full h-auto"
+    class="w-full h-auto animate-fade animate-duration-1000"
     autoplay
     loop
     muted
